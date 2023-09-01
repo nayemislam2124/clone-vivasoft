@@ -118,6 +118,7 @@ header .navbar ul li a:hover{
     height:auto;
     background-color:#c4d0ff30;
     padding-bottom:2rem;
+    margin-top:0rem;
 }
 .section-2-item-container{
     max-width:900px;
@@ -168,7 +169,7 @@ header .navbar ul li a:hover{
     }
     .header-banner-item-container{
         flex-direction:column-reverse;
-        margin:30rem auto;
+        margin:1rem auto;
         width:90%;
     }
     .header-banner-items-text{
@@ -227,7 +228,7 @@ header .navbar ul li a:hover{
     }
     .header-banner-item-container{
         flex-direction:column-reverse;
-        margin:30rem auto;
+        margin:1rem auto;
         width:90%;
     }
     .header-banner-items-text{
