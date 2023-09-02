@@ -216,6 +216,48 @@ header .navbar ul li a:hover{
     transform:scale(.9);
 }
 /* section 4 end */
+/* section 5 start  */
+.section-5-some-items-container{
+    max-width:500px;
+    margin:0.5rem auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:1rem;
+    padding:0.7rem 2rem;
+    border-radius:1rem;
+    background-color:#c4d0ff30;
+}
+.section-5-some-items-container img{
+    width:7rem;
+}
+.section-5-some-items-container h4{
+    color:#4A42EA;
+    line-height:1.2rem;
+    font-weight:500;
+    font-size:0.8rem;
+}
+.section-5-some-items-container h4>p{
+    font-weight:400;
+    font-size:0.6rem;
+}
+.section-5-items-container{
+    max-width:900px;
+    margin:2rem auto;
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:1rem;
+    padding:1rem;
+    position:relative;
+    left:2rem;
+}
+.aws{
+    width:6rem;
+}
+.section-5-img{
+    width:6rem;
+}
+/* section 5 end */
 /* responsive tablet approach start  */
 @media screen and (min-width: 576px) and (max-width: 992px){
     header{
@@ -293,6 +335,26 @@ header .navbar ul li a:hover{
     .section-4-items-text img{
         width:100%;
     }
+    .section-5-some-items-container{
+        flex-direction:column;
+        width:90%;
+        text-align:center;
+        gap:1.3rem;
+    }
+    .section-5-items-container{
+        grid-template-columns:repeat(5,4fr);
+        position:relative;
+        left:.5rem;
+        width:90%;
+        margin:1rem auto;
+        gap:1rem;
+    }
+    .aws{
+        width:6rem;
+    }
+    .section-5-img{
+        width:6rem;
+    }
 }
 /* responsive tablet approach end */
 /* responsive mobile approach start  */
@@ -369,6 +431,26 @@ header .navbar ul li a:hover{
     }
     .section-4-items-text img{
         width:100%;
+    }
+    .section-5-some-items-container{
+        flex-direction:column;
+        width:90%;
+        text-align:center;
+        gap:1.3rem;
+    }
+    .section-5-items-container{
+        grid-template-columns:repeat(4,4fr);
+        position:relative;
+        left:0rem;
+        width:90%;
+        margin:1rem auto;
+        gap:1rem;
+    }
+    .aws{
+        width:3.2rem;
+    }
+    .section-5-img{
+        width:3.3rem;
     }
 }
 /* responsive mobile approach end */
